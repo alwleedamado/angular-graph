@@ -1,0 +1,11 @@
+yarn run v1.22.19
+$ C:\Dev\cli-tools\angular-graph\node_modules\.bin\nx g @nrwl/workspace:ci-workflow --ci=github
+
+ >  NX   Unable to resolve @nrwl/workspace:ci-workflow.
+
+   unable to find tsconfig.base.json or tsconfig.json
+   Pass --verbose to see the stacktrace.
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+error Command failed with exit code 1.
