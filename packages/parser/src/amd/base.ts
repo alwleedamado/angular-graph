@@ -2,7 +2,9 @@ export abstract class AMDNode {
     filename: string;
     abstract type: NodeType;
     name: string;
-    constructor(fileName) { }
+    constructor(fileName) {
+        this.filename = fileName;
+     }
 }
 
 export enum NodeType {
@@ -11,6 +13,10 @@ export enum NodeType {
     directive = 3,
     pipe = 4,
     injectable = 5,
+    input = 6,
+    output = 7,
+    hostBinding = 8,
+    hostListener = 9
 }
 
 export enum Injectable {
